@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Audio Streaming",
+    "layer": "Microservices",
+    "description": "Handles audio delivery, buffering, device handoff, and adaptive bitrate.",
+    "tech": ["CDN", "HTTP Range Requests", "Playback Engine"]
+  },
+  {
+    "name": "Search",
+    "layer": "Microservices",
+    "description": "Provides fast search and autocomplete using Elasticsearch.",
+    "tech": ["Elasticsearch", "Ranking Models"]
+  },
+  {
+    "name": "Recommendations",
+    "layer": "Microservices",
+    "description": "Generates personalized playlists using ML models and user behavior.",
+    "tech": ["ML Models", "User Events", "Kafka/PubSub"]
+  },
+  {
+    "name": "User & Auth",
+    "layer": "Microservices",
+    "description": "Manages user profiles, authentication, and subscriptions.",
+    "tech": ["OAuth", "Tokens", "User DB"]
+  },
+  {
+    "name": "API Gateway",
+    "layer": "Edge & Delivery",
+    "description": "Entry point for all client requests; handles routing and auth.",
+    "tech": ["Routing", "Rate Limiting"]
+  },
+  {
+    "name": "Multi-CDN",
+    "layer": "Edge & Delivery",
+    "description": "Delivers audio globally through Akamai, CloudFront, and Fastly.",
+    "tech": ["Akamai", "CloudFront", "Fastly"]
+  },
+  {
+    "name": "Kubernetes (GCP)",
+    "layer": "Platform",
+    "description": "Orchestrates microservices, autoscaling, and deployments.",
+    "tech": ["Containers", "Service Mesh"]
+  }
+]
